@@ -201,7 +201,7 @@ figure(2)
 clf; hold on;
 plot(k,imag(ws),'-r','linewidth',5)
 xlabel('k{d_e}')
-ylabel('\gamma/\omege_{pe}')
+ylabel('\gamma/\omega_{pe}')
 print -dpdf -F:18 "gamma.pdf"
 
 EBratio = sqrt(sum(abs(E(:,:)).^2, 2)./sum(abs(B(:,:)).^2, 2));
