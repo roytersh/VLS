@@ -91,9 +91,9 @@ params.Upar = Upar;
 % ******************************************************************
 
 % in this example, compute w(k) for a given angle theta w.r.t. magnetic field
-theta = 80/180.0*pi;
+theta = 1/180.0*pi;
 % values of k to compute w for
-k = linspace( 30, 10, 50 );
+k = linspace( 10, 3, 100 );
 % pre-compute k_par and k_per
 kpar = k*cos(theta);
 kper = k*sin(theta);
